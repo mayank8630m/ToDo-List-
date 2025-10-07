@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.todo-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+
+}
+
+#addbtn{
+    height: 35px;
+    border-radius: 10px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+#todo-input,#todo-date{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+span{
+   height: 30px;
+    border-radius: 10px;
+    border: none; 
+    background-color: antiquewhite;
+    padding-left: 10px;
+    align-content: center;
+}
+.btn-delete{
+      height: 35px;
+    border-radius: 10px;
+    background-color: rgb(224, 0, 86);
+    border: none;
+    color: white;
+    padding: 5px;
+}
